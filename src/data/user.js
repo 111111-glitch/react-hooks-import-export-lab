@@ -1,6 +1,8 @@
-const username = "Liza";
-const city = "New York";
+const usernameValue = "Liza";
+const cityValue = "New York";
+const imageValue = "https://i.imgur.com/mV8PQxj.gif";
 
-const image = "https://i.imgur.com/mV8PQxj.gif";
-
-// export all three variables as named exports
+// Export the variables
+export const username = usernameValue;
+export const city = cityValue;
+export const image = imageValue;
